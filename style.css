@@ -1,0 +1,85 @@
+body {
+    background-image: linear-gradient(to right, rgb(0, 174, 255) , rgb(243, 255, 176));
+  }
+.main{
+    margin: 0 auto;
+    /* border: 3px solid teal; */
+    box-sizing: border-box;
+    width: 300px;
+    height: 500px;
+    /* background-color: teal; */
+    /* background-image: url(images/logoo.png); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 400px; */
+    margin-top: 50px;
+    
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+input{
+    width: 97.5%;
+    height: 50px;
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    width: 23%;
+    margin-top: 10px;
+    margin-left: 2px;
+    height: 80px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: 3px solid white;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(0, 196, 245)
+}
+.equal-btn, .clear-btn{
+    width: 35%;
+    height: 80px;
+    font-size: 25px;
+    border-radius: 30px;
+    border: 3px solid white;
+}
+.equal-btn, .clear-btn:focus{
+    outline: none;
+}
+.equal-btn, .clear-btn:hover{
+    color: white;
+background-color: rgb(4, 57, 82);
+}
+.github button{
+    border: none;
+    background-color: rgb(4,57,82);
+    color: white;
+    width: 300px;
+    height:50px;
+cursor: pointer;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.github button:focus{
+    outline: none;
+    
+}
+i{
+    font-size: 20px;
+}
+.github button:hover{
+    color: rgb(4,57,82);
+    background-color: white;
+}
